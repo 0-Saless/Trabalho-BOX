@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0", >
+        <title>Rafa-Sales Box</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/458/458508.png">
+        <!--Fonte-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+             Bem vindo!
+            <font style="font-size:x-large;"><br>Conheça os melhores jogos de cada empresa</font>
+            <hr width="50%" align="center">
+        </header>
+        <div class="main">
+            <div class="card">
+                <img src="Icones e Imagens/social.png" width="100px" height="100px" alt="Logo da Playstation" title="PLAYSTATION" class="circle-img">
+                <br/><br/><br/><br/>
+                <a href="https://lista.mercadolivre.com.br/horizon-zero-down" target="_blank"><h1 class="button-link"  onclick="alerta()">PLAYSTATION</h1></a>
+            </div>
+            <div class="card">
+                <img src="Icones e Imagens/nintendo.png" width="100px" height="100px" alt="Logo da Nintendo" title="NINTENDO" class="circle-img">
+                <br/><br/><br/><br/>
+               <a href="https://lista.mercadolivre.com.br/zelda-ocarina-of-time" target="_blank" > <h1 class="button-link"  onclick="alerta()">NINTENDO</h1></a>
+            </div>
+            <div class="card">
+                <img src="Icones e Imagens/xbox.png" width="100px" height="100px" alt="Logo do Xbox" title="XBOX" class="circle-img">
+                <br/><br/><br/><br/>
+                <a href="https://lista.mercadolivre.com.br/forza-horizon-5" target="_blank" ><h1 class="button-link" onclick="alerta()">XBOX</h1></a>
+            </div>
+            </div>
+        </div>
+      
+         
+         
+       
+     
+
+        
+        <script>
+            function alerta() {
+                let nome = prompt("Qual é o seu nome?");
+				if (nome != null) {
+                    alert("Olá, " + nome + "!");
+                    alert("Agora você será redirecionado ao seu destino!")
+                }
+            }
+        </script>
+ 
+
+        
+        
+        
+
+
+
+
+    </body>
+</html>
